@@ -1,4 +1,4 @@
-package com.tickaroo.pixel7crashtest.ui.theme
+package com.example.pixel7crashtest.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

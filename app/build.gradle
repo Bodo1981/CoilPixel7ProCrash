@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-  namespace 'com.tickaroo.pixel7crashtest'
+  namespace 'com.example.pixel7crashtest'
   compileSdk 33
 
   defaultConfig {
-    applicationId "com.tickaroo.pixel7crashtest"
+    applicationId "com.example.pixel7crashtest"
     minSdk 31
     targetSdk 33
     versionCode 1
@@ -61,4 +61,5 @@ dependencies {
   implementation "com.google.accompanist:accompanist-webview:0.30.1"
   debugImplementation 'androidx.compose.ui:ui-tooling'
   debugImplementation 'androidx.compose.ui:ui-test-manifest'
+  implementation "androidx.recyclerview:recyclerview:1.3.0"
 }
